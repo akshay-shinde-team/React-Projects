@@ -5,6 +5,9 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import { Keys } from './assets/components/keys'
 import { Bgbutton } from './assets/components/bgbutton'
+import { States } from './assets/components/states'
+import { Controlled } from './assets/components/controlled'
+import { Snapshot } from './assets/components/snapshot'
 
 function App() {
  
@@ -21,7 +24,7 @@ return(
 
   <div>
     <h3>AKs</h3>
-    <Bgbutton/>
+   <Snapshot/>
     </div>
 );
 }
